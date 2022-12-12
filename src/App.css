@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: Black;
+}
+
+.App-link {
+  color: #f6bd00;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Top-block{
+  display: flex;
+  flex-flow: row nowrap;
+  
+  justify-content: space-between;
+  align-items: center;
+  width: (100%-300px);
+  height: 50px;
+  background: linear-gradient(270deg, #6532BA 3.64%, #2A7FC2 77.53%);
+}
+
+.Left-block{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  
+  width: 300px;
+  height: 550px;
+  left: 0px;
+  top: 90px;
+  
+  background: linear-gradient(179.99deg, #2B80C2 13.47%, #6ACAD7 99.99%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Logo-main{
+  
+  margin-left: 75px;
+  margin-right: 20px;
+  height: 50px;
+}
+
+.Pers-cab{
+  width: 30px;
+  height: 30px;
+  
+}
+.InputWhere{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items:center ;
+}
+.InputWhereBlock1{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+.InputWhereBlock2{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+ 
+  
+}
+.InputWhereText{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+ 
+  
+  color: #343A40;
+}
+.Input-win1{
+
+  width: 210px;
+  height: 25px;
+  background: #F8F9FA;
+  border-radius: 30px; 
+  border: 2px solid rgba(134, 142, 150, 0.61);
+}
+
+.Input-win2{
+  width: 210px;
+  height: 25px;
+  background: #F8F9FA;
+  border-radius: 30px; 
+  border: 2px solid rgba(134, 142, 150, 0.61);
+}
+
+.InputFindInfoBlock{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  
+  
+}
+.InputFindInfoWhere{
+  width: 210px;
+  height: 25px;
+  background: #F8F9FA;
+  border-radius: 30px; 
+  border: 2px solid rgba(134, 142, 150, 0.61);
+}
+.OutputInfo{
+  width: 280px;
+  height: 200px;
+  background: #F8F9FA;
+  border: 2px solid rgba(134, 142, 150, 0.61);
+  border-radius: 9px;
+}
+.Reverse-but{
+  width: 30px;
+  height: 30px;
+}
+
+.Button-lefter{
+  
+  border-radius: 10%;
+  align-items: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+
+.Button-header{
+  border-radius: 10%;
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+  
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.Font-title{
+  
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #F8F9FA;
+}
